@@ -1,12 +1,21 @@
 // 1. Declare 3 variables in one statement.
-// var date, time, day;
-// var date; var time; var day;
+
+
+var date, time, day;
+// Or
+var date; var time; var day;
+
+
 
 // 2. Declare 5 legal & 5 illegal variable names.
+
+
 // Legal: 
-// var name, nameStudent, Student21, stude3nt, _name;
+var name, nameStudent, Student21, stude3nt, _name;
 // Illegal
 // var 2name, n@me, @name, stu dent, student!;
+
+
 
 
 // 3. Display this in your browser 
@@ -18,6 +27,8 @@
 // _____. For example $name, _name or name 
 // d) Variable names are case _________ 
 // e) Variable names should not be JS _________
+
+
 var example = "$my_1stVariable";
 var example2 = "$name, _name or name";
 document.write("Variable names can only contain numebrs, $ and _. For example: " + example);
